@@ -1,5 +1,7 @@
 package day03;
 
+
+
 public class ArrayOutPut {
 public static void main(String[] args) {
 	int[][] scores = {
@@ -7,13 +9,13 @@ public static void main(String[] args) {
 			{21, 22, 23, 24},
 			{31, 32, 33, 34}
 		};
-	System.out.println("æŒ‰å®šä¹‰è¾“å‡ºä¸ºï¼š");
+	System.out.println("°´¶¨ÒåÊä³öÎª£º");
 	definition(scores);
-	System.out.println("ä»ä¸‹å¾€ä¸Šè¾“å‡ºä¸ºï¼š");
+	System.out.println("´ÓÏÂÍùÉÏÊä³öÎª£º");
 	undertoup(scores);
-	System.out.println("ä»ä¸‹å¾€ä¸Šï¼Œä»å³å¾€å·¦è¾“å‡ºä¸ºï¼š");
+	System.out.println("´ÓÏÂÍùÉÏ£¬´ÓÓÒÍù×óÊä³öÎª£º");
 	righttoleft(scores);
-	System.out.println("é¡ºæ—¶é’ˆ90Â°è¾“å‡ºä¸ºï¼š");
+	System.out.println("Ë³Ê±Õë90¡ãÊä³öÎª£º");
 	clockwise(scores);
 }
   public static void definition(int scores[][]) {
